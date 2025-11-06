@@ -1,6 +1,5 @@
 package edu.ucne.jendri_hidalgo_p2_ap2.di
 
-import android.health.connect.datatypes.MealType
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import dagger.Module
@@ -10,7 +9,6 @@ import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import javax.inject.Singleton
-import kotlin.jvm.java
 
 @InstallIn(SingletonComponent::class)
 @Module
