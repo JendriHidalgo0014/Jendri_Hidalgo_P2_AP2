@@ -6,6 +6,9 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
+import edu.ucne.jendri_hidalgo_p2_ap2.data.remote.ApiService
+import edu.ucne.jendri_hidalgo_p2_ap2.data.repository.GastoRepositoryImpl
+import edu.ucne.jendri_hidalgo_p2_ap2.domain.repository.GastoRepository
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import javax.inject.Singleton
