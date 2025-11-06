@@ -33,8 +33,8 @@ object ApiModule {
     @Singleton
     fun providesOkHttpClient(): OkHttpClient {
         return OkHttpClient.Builder()
-            .connectTimeout(30, TimeUnit.SECONDS) // Opcional: define un tiempo de espera para la conexión
-            .readTimeout(30, TimeUnit.SECONDS)    // Opcional: define un tiempo de espera para la lectura
+            .connectTimeout(30, TimeUnit.SECONDS)
+            .readTimeout(30, TimeUnit.SECONDS)
             .build()
     }
     @Provides
